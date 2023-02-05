@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.navber{
+    display: flex;
+    height: 95px;
+    background-color: beige
+}
+.section1{
+    display: flex;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+.section1 h1{
+    padding-right: 8px;
+    font-size: 35px;
+}
+
+.section1 h2{
+    padding-right: 7px;
+    font-size: 35px;
+    color: aqua;
+}
+.section1 a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+    padding-top: 15px;
+    padding-right: 20px;   
+}
+
+
+.section1 a:hover{
+    color: aquamarine;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+}
+.section2 h2{
+    text-decoration: none;
+    color: black;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+
+///////////////////
+.section2 btn button{
+    padding: 10px 20px;
+    padding-top: 20px;
+    background: yellow;
+    color: black;
+    font-size: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 70px;
+    display: inline-flex;
+    margin-left: 70em;
+    right: 10em;
+}
+.btn button:hover{
+    color: white;
+    background-color: rgb(212, 31, 58);
+    transition: 0.2s;
+}
+
+.section2 btn{
+    text-align: center;
+}
+
+.section2 a{
+    font-size: small;
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-left: 50px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+.second{
+    display: flex;
+    height: 450px;
+    background-color: lightgray;
+    justify-content: space-between;
+}
+
+.one{
+    padding-top: 75px;
+    padding-left: 45px;
+}
+.oneone{
+    color: rgb(15, 192, 133);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.new{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    padding-bottom: 10px;
+}
+.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    padding-bottom: 20px;
+}
+.bttn button{
+    background: rgb(202, 9, 73);
+    color: black;
+    padding: 10px 10px 10px;
+    font-size: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+   
+}
+.bttn button:hover{
+    color: white;
+    background-color: rgb(212, 31, 58);
+    transition: 0.2s;
+}
